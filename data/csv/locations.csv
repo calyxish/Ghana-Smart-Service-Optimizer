@@ -1,0 +1,51 @@
+locationId,name,area,type,latitude,longitude
+1,Balme Library,Central Campus,Library,5.6505,-0.1862
+2,JQB (J.Q.B. Building),Central Campus,Lecture Hall,5.6510,-0.1858
+3,UGCS (Computer Science Dept),Science Area,Department,5.6498,-0.1870
+4,N-Block,Central Campus,Lecture Hall,5.6512,-0.1855
+5,Akuafo Hall,Residential,Hostel,5.6530,-0.1850
+6,Legon Hall,Residential,Hostel,5.6520,-0.1865
+7,Volta Hall,Residential,Hostel,5.6525,-0.1840
+8,Commonwealth Hall,Residential,Hostel,5.6540,-0.1835
+9,Pentagon Hall,Residential,Hostel,5.6515,-0.1880
+10,ISH (International Students Hostel),Residential,Hostel,5.6508,-0.1890
+11,Athletic Oval,Sports Area,Sports Facility,5.6485,-0.1835
+12,Night Market,Commercial Area,Market,5.6495,-0.1815
+13,Diaspora Dining Hall,Central Campus,Dining Hall,5.6490,-0.1845
+14,Science Faculty,Science Area,Faculty,5.6495,-0.1860
+15,Engineering Faculty,Science Area,Faculty,5.6488,-0.1875
+16,Business School,Central Campus,Faculty,5.6500,-0.1848
+17,Law Faculty,Central Campus,Faculty,5.6515,-0.1845
+18,Medical School,North Campus,Faculty,5.6545,-0.1870
+19,SRC Building,Central Campus,Administration,5.6508,-0.1840
+20,Main Gate,Entrance,Gate,5.6520,-0.1805
+21,Okponglo Gate,Entrance,Gate,5.6475,-0.1795
+22,University Hospital,North Campus,Hospital,5.6550,-0.1855
+23,Banking Square,Central Campus,Commercial,5.6510,-0.1835
+24,UG Bookshop,Central Campus,Bookshop,5.6502,-0.1838
+25,Great Hall,Central Campus,Auditorium,5.6518,-0.1838
+26,Bush Canteen,Central Campus,Canteen,5.6498,-0.1828
+27,School of Physical Sciences,Science Area,Faculty,5.6488,-0.1855
+28,School of Biological Sciences,Science Area,Faculty,5.6485,-0.1865
+29,School of Agriculture,North Campus,Faculty,5.6540,-0.1885
+30,UGCS Laboratory,Science Area,Laboratory,5.6495,-0.1872
+31,Volta Hall Dining Hall,Residential,Dining Hall,5.6528,-0.1842
+32,Akuafo Hall Dining Hall,Residential,Dining Hall,5.6532,-0.1853
+33,Legon Hall Dining Hall,Residential,Dining Hall,5.6522,-0.1867
+34,Commonwealth Hall Dining Hall,Residential,Dining Hall,5.6542,-0.1837
+35,University Basic School,North Campus,School,5.6552,-0.1838
+36,Department of Statistics,Science Area,Department,5.6490,-0.1868
+37,Department of Mathematics,Science Area,Department,5.6492,-0.1858
+38,Department of Physics,Science Area,Department,5.6485,-0.1852
+39,Department of Chemistry,Science Area,Department,5.6488,-0.1862
+40,University Auditorium,Central Campus,Auditorium,5.6505,-0.1828
+41,UG Computing Systems,Science Area,Department,5.6497,-0.1873
+42,Maintenance Office,Central Campus,Office,5.6500,-0.1818
+43,Security Command Centre,Central Campus,Security,5.6512,-0.1815
+44,Transport Office,Central Campus,Transport,5.6505,-0.1812
+45,Guest Centre,Central Campus,Guest Facility,5.6525,-0.1825
+46,School of Education,North Campus,Faculty,5.6548,-0.1848
+47,School of Nursing,North Campus,Faculty,5.6545,-0.1860
+48,UG Sports Centre,Sports Area,Sports Facility,5.6482,-0.1828
+49,Student Centre,Central Campus,Student Facility,5.6505,-0.1835
+50,Legon Botanical Gardens,North Campus,Recreation,5.6560,-0.1825
