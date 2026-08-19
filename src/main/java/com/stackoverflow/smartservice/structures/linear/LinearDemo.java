@@ -2,10 +2,10 @@ package com.stackoverflow.smartservice.structures.linear;
 
 public class LinearDemo {
     public static void main(String[] args) {
-        System.out.println("=== Starting Custom Linear Structures Verification ===");
+        System.out.println(" Starting Custom Linear Structures Verification");
 
         // 1. DynamicArray Test
-        System.out.println("\n--- Testing DynamicArray ---");
+        System.out.println("\n Testing DynamicArray");
         DynamicArray<String> arr = new DynamicArray<>();
         arr.add("Balme Library");
         arr.add("JQB");
@@ -19,7 +19,7 @@ public class LinearDemo {
         }
 
         // 2. SinglyLinkedList Test
-        System.out.println("\n--- Testing SinglyLinkedList ---");
+        System.out.println("\n Testing SinglyLinkedList ");
         SinglyLinkedList<String> sll = new SinglyLinkedList<>();
         sll.addLast("Balme Library");
         sll.addLast("UGCS");
@@ -32,7 +32,7 @@ public class LinearDemo {
         }
 
         // 3. DoublyLinkedList Test
-        System.out.println("\n--- Testing DoublyLinkedList ---");
+        System.out.println("\n Testing DoublyLinkedList ");
         DoublyLinkedList<String> dll = new DoublyLinkedList<>();
         dll.addLast("Balme Library");
         dll.addLast("UGCS");
@@ -48,7 +48,7 @@ public class LinearDemo {
         }
 
         // 4. CustomStack Test
-        System.out.println("\n--- Testing CustomStack ---");
+        System.out.println("\n Testing CustomStack ");
         CustomStack<String> stack = new CustomStack<>();
         stack.push("Balme Library");
         stack.push("JQB");
@@ -59,7 +59,7 @@ public class LinearDemo {
         System.out.println("Size: " + stack.size()); // Expect 1
 
         // 5. CustomQueue Test
-        System.out.println("\n--- Testing CustomQueue ---");
+        System.out.println("\n Testing CustomQueue ");
         CustomQueue<String> queue = new CustomQueue<>();
         queue.enqueue("Balme Library");
         queue.enqueue("JQB");
@@ -70,7 +70,7 @@ public class LinearDemo {
         System.out.println("Size: " + queue.size()); // Expect 1
 
         // 6. CustomDeque Test
-        System.out.println("\n--- Testing CustomDeque ---");
+        System.out.println("\n Testing CustomDeque ");
         CustomDeque<String> deque = new CustomDeque<>();
         deque.addRear("JQB");
         deque.addFront("Balme Library");
@@ -81,6 +81,6 @@ public class LinearDemo {
         System.out.println("Removed Rear: " + deque.removeRear()); // Expect UGCS
         System.out.println("Size: " + deque.size()); // Expect 1
 
-        System.out.println("\n=== All Linear Structures Tests Completed ===");
+        System.out.println("\n  All Linear Structures Tests Completed ");
     }
 }
