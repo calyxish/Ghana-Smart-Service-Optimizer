@@ -78,15 +78,15 @@ Use this guide to track your progress and know when you are done with your part.
 
 | Status | Task | Deliverable |
 |--------|------|------------|
-| [ ] | `DynamicArray.java` — insert, get, set, remove, resize | Java file |
-| [ ] | `SinglyLinkedList.java` — addFirst, addLast, insertAfter, remove | Java file |
-| [ ] | `DoublyLinkedList.java` — addFirst, addLast, remove, reverse | Java file |
-| [ ] | `CustomIterator.java` — iterator for linked lists | Java file |
-| [ ] | `CustomStack.java` — push, pop, peek, isEmpty | Java file |
-| [ ] | `CustomQueue.java` — enqueue, dequeue (+ circular variant) | Java file |
-| [ ] | `CustomDeque.java` — addFront, addRear, removeFront, removeRear | Java file |
-| [ ] | All structures compile without errors | `javac` passes |
-| [ ] | Basic manual tests pass (add, remove, edge cases) | Tested |
+| [x] | `DynamicArray.java` — insert, get, set, remove, resize | Java file |
+| [x] | `SinglyLinkedList.java` — addFirst, addLast, insertAfter, remove | Java file |
+| [x] | `DoublyLinkedList.java` — addFirst, addLast, remove, reverse | Java file |
+| [x] | `CustomIterator.java` — iterator for linked lists | Java file |
+| [x] | `CustomStack.java` — push, pop, peek, isEmpty | Java file |
+| [x] | `CustomQueue.java` — enqueue, dequeue (+ circular variant) | Java file |
+| [x] | `CustomDeque.java` — addFront, addRear, removeFront, removeRear | Java file |
+| [x] | All structures compile without errors | `javac` passes |
+| [x] | Basic manual tests pass (add, remove, edge cases) | Tested |
 
 **Done signal:** Message the group: "Role 4 COMPLETE. Linear structures ready for Roles 8, 10, 11."
 
