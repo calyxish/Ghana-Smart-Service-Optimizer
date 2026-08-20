@@ -96,11 +96,11 @@ Use this guide to track your progress and know when you are done with your part.
 
 | Status | Task | Deliverable |
 |--------|------|------------|
-| [ ] | `BinarySearchTree.java` — insert, search, delete, traversals | Java file |
-| [ ] | `RedBlackTree.java` OR `BalancedTree.java` — with rotations | Java file |
-| [ ] | `BTree.java` — node split and search | Java file |
-| [ ] | Inorder traversal produces sorted output | Tested |
-| [ ] | All structures compile without errors | `javac` passes |
+| [x] | `BinarySearchTree.java` — insert, search, delete, traversals | Java file |
+| [x] | `RedBlackTree.java` OR `BalancedTree.java` — with rotations | Java file |
+| [x] | `BTree.java` — node split and search | Java file |
+| [x] | Inorder traversal produces sorted output | Tested |
+| [x] | All structures compile without errors | `javac` passes |
 
 **Done signal:** Message the group: "Role 5 COMPLETE. Tree structures ready."
 
@@ -110,13 +110,13 @@ Use this guide to track your progress and know when you are done with your part.
 
 | Status | Task | Deliverable |
 |--------|------|------------|
-| [ ] | `MinHeap.java` / `MaxHeap.java` — insert, extract, heapify | Java file |
-| [ ] | `PriorityQueue.java` — backed by heap | Java file |
-| [ ] | `HashTable.java` — put, get, remove, collision handling | Java file |
-| [ ] | `CustomHashSet.java` — set on top of hash table | Java file |
-| [ ] | `CustomHashMap.java` — map on top of hash table | Java file |
-| [ ] | Collision handling works correctly | Tested |
-| [ ] | All structures compile without errors | `javac` passes |
+| [x] | `MinHeap.java` / `MaxHeap.java` — insert, extract, heapify | Java file |
+| [x] | `PriorityQueue.java` — backed by heap | Java file |
+| [x] | `HashTable.java` — put, get, remove, collision handling | Java file |
+| [x] | `CustomHashSet.java` — set on top of hash table | Java file |
+| [x] | `CustomHashMap.java` — map on top of hash table | Java file |
+| [x] | Collision handling works correctly | Tested |
+| [x] | All structures compile without errors | `javac` passes |
 
 **Done signal:** Message the group: "Role 6 COMPLETE. Priority queue and hash structures ready for Role 10."
 
@@ -126,11 +126,11 @@ Use this guide to track your progress and know when you are done with your part.
 
 | Status | Task | Deliverable |
 |--------|------|------------|
-| [ ] | `AdjacencyListGraph.java` — graph using adjacency lists | Java file |
-| [ ] | `AdjacencyMatrixGraph.java` — graph using adjacency matrix | Java file |
-| [ ] | `DisjointSet.java` — makeSet, find, union by rank, path compression | Java file |
-| [ ] | Can build graph from locations and roads data | Tested |
-| [ ] | All structures compile without errors | `javac` passes |
+| [x] | `AdjacencyListGraph.java` — graph using adjacency lists | Java file |
+| [x] | `AdjacencyMatrixGraph.java` — graph using adjacency matrix | Java file |
+| [x] | `DisjointSet.java` — makeSet, find, union by rank, path compression | Java file |
+| [x] | Can build graph from locations and roads data | Tested |
+| [x] | All structures compile without errors | `javac` passes |
 
 **Done signal:** Message the group: "Role 7 COMPLETE. Graph structures ready for Roles 9, 11."
 
@@ -159,13 +159,13 @@ Use this guide to track your progress and know when you are done with your part.
 
 | Status | Task | Deliverable |
 |--------|------|------------|
-| [ ] | `BFS.java` — breadth-first search | Java file |
-| [ ] | `DFS.java` — depth-first search | Java file |
-| [ ] | `Dijkstra.java` — shortest path | Java file |
-| [ ] | `Prim.java` — minimum spanning tree | Java file |
-| [ ] | `Kruskal.java` — MST using DisjointSet | Java file |
-| [ ] | Dijkstra returns correct shortest path and distance | Tested |
-| [ ] | MST returns correct total cost | Tested |
+| [x] | `BFS.java` — breadth-first search | Java file |
+| [x] | `DFS.java` — depth-first search | Java file |
+| [x] | `Dijkstra.java` — shortest path | Java file |
+| [x] | `Prim.java` — minimum spanning tree | Java file |
+| [x] | `Kruskal.java` — MST using DisjointSet | Java file |
+| [x] | Dijkstra returns correct shortest path and distance | Tested |
+| [x] | MST returns correct total cost | Tested |
 
 **Done signal:** Message the group: "Role 9 COMPLETE. Graph algorithms ready."
 
@@ -271,16 +271,16 @@ Use this guide to track your progress and know when you are done with your part.
 
 | Status | Task | Deliverable |
 |--------|------|------------|
-| [ ] | `Main.java` entry point works | Java file |
-| [ ] | Console menu loads data from database | Working menu |
-| [ ] | Menu option: Run search algorithms | Working |
-| [ ] | Menu option: Run sort algorithms | Working |
-| [ ] | Menu option: Find shortest path (Dijkstra) | Working |
-| [ ] | Menu option: View scheduling comparisons | Working |
-| [ ] | Menu option: Run performance benchmarks | Working |
-| [ ] | Menu option: View audit log | Working |
-| [ ] | All menu options work without editing source code | Tested |
-| [ ] | No merge conflicts remaining in the codebase | Verified |
+| [x] | `Main.java` entry point works | Java file |
+| [x] | Console menu loads data from database | Working menu |
+| [ ] | Menu option: Run search algorithms | Placeholder (Role 8 pending) |
+| [ ] | Menu option: Run sort algorithms | Placeholder (Role 8 pending) |
+| [x] | Menu option: Find shortest path (Dijkstra) | Working |
+| [ ] | Menu option: View scheduling comparisons | Placeholder (Role 10 pending) |
+| [ ] | Menu option: Run performance benchmarks | Placeholder (Role 14 pending) |
+| [ ] | Menu option: View audit log | Placeholder (Role 18 pending) |
+| [x] | All menu options work without editing source code | Tested |
+| [x] | No merge conflicts remaining in the codebase | Verified |
 
 **Done signal:** Message the group: "Role 15 COMPLETE. Application menu is working end-to-end."
 
@@ -317,16 +317,16 @@ This is the final checklist before submission. The Team Lead will verify all ite
 |--------|------|-------|
 | [ ] | All CSV data files present and valid | Role 1 |
 | [ ] | Database schema creates and loads successfully | Roles 2 + 3 |
-| [ ] | All 7 custom data structures implemented (no built-in collections) | Roles 4-7 |
+| [x] | All 7 custom data structures implemented (no built-in collections) | Roles 4-7 |
 | [ ] | All 6 search/sort algorithms implemented | Role 8 |
-| [ ] | All 5 graph algorithms implemented (BFS, DFS, Dijkstra, Prim, Kruskal) | Role 9 |
+| [x] | All 5 graph algorithms implemented (BFS, DFS, Dijkstra, Prim, Kruskal) | Role 9 |
 | [ ] | Scheduling engine with 4 dispatch strategies | Role 10 |
 | [ ] | Greedy + DP algorithms with counterexample | Role 11 |
 | [ ] | 40+ unit tests passing | Role 12 |
 | [ ] | 6 trace tables completed | Role 13 |
 | [ ] | 3 proof sketches + 2 counterexamples | Role 13 |
 | [ ] | 6 benchmark experiments with graphs | Role 14 |
-| [ ] | Console menu works end-to-end | Role 15 |
+| [x] | Console menu works end-to-end | Role 15 |
 | [ ] | Final report PDF complete | Role 16 |
 | [ ] | 5-8 minute demo video recorded | Bonus |
 | [ ] | Algorithm parameters derived from index numbers | Roles 1 + 11 |

@@ -322,7 +322,7 @@ git push -u origin feature/robert/database-schema
 
 ### Role 3: Data Loader (Java I/O)
 
-**Assigned to:** Prosper Sokari (22244884)
+**Assigned to:** Prosper Sokari (22244884) and Samuel Kofi Ntem Amankwah (22017217)
 
 **Your package:** `src/main/java/com/stackoverflow/smartservice/data/loader/`
 **Your branch:** `feature/prosper/data-loader`
@@ -463,10 +463,10 @@ git push -u origin feature/samuel-caleb/linear-structures
 
 ### Role 5: Tree Structures Lead
 
-**Assigned to:** Samuel Kofi Ntem Amankwah (22017217) and Kwakye Ishmael Affum (22032451)
+**Assigned to:** Samuel Kofi Ntem Amankwah (22017217) and Prince Boateng (22017084)
 
 **Your package:** `src/main/java/com/stackoverflow/smartservice/structures/tree/`
-**Your branch:** `feature/samuel-ishmael/tree-structures`
+**Your branch:** `feature/samuel/tree-structures`
 
 **What you must build:**
 
@@ -476,7 +476,7 @@ git push -u origin feature/samuel-caleb/linear-structures
 | `RedBlackTree.java` | Self-balancing BST with color rules. Methods: insert (with rotations/recoloring), search, inorder | Balanced index of service requests. Guarantees O(log n) even in worst case. |
 | `BTree.java` | Multi-way search tree (simplified). Methods: insert (with node split), search | Simulates how a database index works. Each node holds multiple keys. |
 
-**How to split:** Samuel handles BST, Ishmael handles RedBlackTree and BTree.
+**How to split:** Samuel handles BST, Prince handles RedBlackTree and BTree.
 
 **For the BST, support these traversals:**
 
@@ -497,7 +497,7 @@ Postorder: Pent, AO, UGCS, NBlock, JQB, Balme (leaves first)
 ```bash
 git checkout dev
 git pull origin dev
-git checkout -b feature/samuel-ishmael/tree-structures
+git checkout -b feature/samuel/tree-structures
 
 # Start with BST — it is the simplest
 # Then build RedBlackTree on top of BST concepts
@@ -839,10 +839,10 @@ git push -u origin feature/hator/optimization
 
 ### Role 12: Unit Tester & QA
 
-**Assigned to:** Samuel Kofi Ntem Amankwah (22017217)
+**Assigned to:** Prince Tawiah Tettey (22390334)
 
 **Your package:** `src/test/java/com/stackoverflow/smartservice/`
-**Your branch:** `feature/samuel/unit-tests`
+**Your branch:** `feature/prince-tettey/unit-tests`
 
 **What you must build:**
 
@@ -1204,14 +1204,14 @@ git push -u origin feature/elijah/report
 
 ## Bonus Roles (Roles 17-20)
 
-These are optional. Pick one up if you finish your main role early. The 3 unassigned members (Prince Boateng, Tawiah Prince Tettey, Dadzie Samuel Amanful) should pick from these.
+These are optional. Pick one up if you finish your main role early.
 
 | Role | What to Do | When to Start |
 |------|-----------|--------------|
 | **Role 17: Data Visualizer** | Take David's CSV data (Role 14) and create high-quality line graphs comparing theoretical O(n) complexity with actual runtime. Use Python matplotlib, Excel, or any graphing tool. | After Phase 4 |
 | **Role 18: Audit Log Developer** | Implement a Stack-based undo/audit trail using Ishmael's CustomStack (Role 4). Track events like "Request #42 assigned to Crew A" and allow undoing the last action. | After Phase 2 |
 | **Role 19: Video Demo Director** | Plan and record the 5-8 minute demonstration video. Show: database loading, algorithm demos, graph routing on campus, test results, performance graphs. | After Phase 5 |
-| **Role 20: AI-Resistance Checker** | Verify the project meets AI-resistance requirements: algorithm parameters derived from student index numbers, local UG campus context is genuine and distinct, trace tables show real understanding. | After Phase 5 |
+| **Role 20: AI-Resistance Checker** (Samuel Amanful Dadzie, 22298847) | Verify the project meets AI-resistance requirements: algorithm parameters derived from student index numbers, local UG campus context is genuine and distinct, trace tables show real understanding. | After Phase 5 |
 
 ---
 
@@ -1221,16 +1221,16 @@ These are optional. Pick one up if you finish your main role early. The 3 unassi
 |------|----------|-----------------|
 | Role 1 | Matin | `data/csv/` and `src/.../data/generator/` |
 | Role 2 | Robert | `database/` and `src/.../data/database/` |
-| Role 3 | Prosper | `src/.../data/loader/` |
+| Role 3 | Prosper, Samuel | `src/.../data/loader/` |
 | Role 4 | Samuel, Caleb | `src/.../structures/linear/` |
-| Role 5 | Samuel, Ishmael | `src/.../structures/tree/` |
+| Role 5 | Samuel, Prince B. | `src/.../structures/tree/` |
 | Role 6 | Ishmael | `src/.../structures/hashing/` |
 | Role 7 | Ishmael | `src/.../structures/graph/` |
 | Role 8 | Renny, Hamidu | `src/.../algorithms/searchsort/` |
 | Role 9 | Ishmael | `src/.../algorithms/graph/` |
 | Role 10 | Kennedy | `src/.../algorithms/scheduling/` |
 | Role 11 | Hator | `src/.../algorithms/optimization/` |
-| Role 12 | Samuel | `src/test/java/.../` |
+| Role 12 | Prince T. | `src/test/java/.../` |
 | Role 13 | Emelia | `docs/trace-tables/` and `docs/proofs/` |
 | Role 14 | David | `src/.../testing/benchmark/` and `docs/performance/` |
 | Role 15 | Ishmael | `src/.../app/` |
@@ -1245,7 +1245,7 @@ These are optional. Pick one up if you finish your main role early. The 3 unassi
 ```
 PHASE 1 (Do First - Sequential)
 ┌──────────────────────────────────────────────────────────────┐
-│  Role 1 (Matin) ──> Role 2 (Robert) ──> Role 3 (Prosper)   │
+│  Role 1 (Matin) ──> Role 2 (Robert) ──> Role 3 (Prosper+Samuel) │
 │  CSV Data             DB Schema            Data Loader       │
 └──────────────────────────────────────────────────────────────┘
                          │
@@ -1253,7 +1253,7 @@ PHASE 1 (Do First - Sequential)
 PHASE 2 (All Start Together - Parallel)
 ┌──────────────────────────────────────────────────────────────┐
 │  Role 4              Role 5          Role 6       Role 7     │
-│  Samuel+Caleb        Samuel+Ishmael  Ishmael      Ishmael    │
+│  Samuel+Caleb        Samuel+Prince B Ishmael      Ishmael    │
 │  (Linear)            (Trees)         (Hash)       (Graph)    │
 └──────────────────────────────────────────────────────────────┘
                          │
@@ -1270,7 +1270,7 @@ PHASE 3 (Start When Your Phase 2 Dependencies Are Done)
 PHASE 4 (Start When Phases 2+3 Are Done)
 ┌──────────────────────────────────────────────────────────────┐
 │  Role 12             Role 13            Role 14              │
-│  Samuel              Emelia             David                │
+│  Prince T.           Emelia             David                │
 │  (Unit Tests)        (Proofs/Traces)    (Benchmarks)         │
 └──────────────────────────────────────────────────────────────┘
                          │

@@ -42,14 +42,14 @@ The system:
 |------|---------------|-------------|------------|
 | **Role 1** | Local Context & Data Generator | Matin Seity | 22372116 |
 | **Role 2** | Database Architect | Robert Ganyoh Goodness | 22405188 |
-| **Role 3** | Data Loader (Java I/O) | Prosper Sokari | 22244884 |
+| **Role 3** | Data Loader (Java I/O) | Prosper Sokari, Samuel Kofi Ntem Amankwah | 22244884, 22017217 |
 
 ### Group 2: Core Data Structure Architects (Phase 2 — After Phase 1)
 
 | Role | Responsibility | Assigned To | Student ID |
 |------|---------------|-------------|------------|
 | **Role 4** | Linear Structures Lead | Samuel Kofi Ntem Amankwah, Ablorh-Adjei Caleb | 22017217, 22186668 |
-| **Role 5** | Tree Structures Lead | Samuel Kofi Ntem Amankwah, Kwakye Ishmael Affum | 22017217, 22032451 |
+| **Role 5** | Tree Structures Lead | Samuel Kofi Ntem Amankwah, Prince Boateng | 22017217, 22017084 |
 | **Role 6** | Priority & Hash Lead | Kwakye Ishmael Affum | 22032451 |
 | **Role 7** | Graph Foundations Lead | Kwakye Ishmael Affum | 22032451 |
 
@@ -66,7 +66,7 @@ The system:
 
 | Role | Responsibility | Assigned To | Student ID |
 |------|---------------|-------------|------------|
-| **Role 12** | Unit Tester & QA | Samuel Kofi Ntem Amankwah | 22017217 |
+| **Role 12** | Unit Tester & QA | Prince Tawiah Tettey | 22390334 |
 | **Role 13** | Theoretical Proof Analyst | Emelia Quarshie | 22305966 |
 | **Role 14** | Empirical Lab Tech | Opoku Owusu-Bonsu David | 22303106 |
 
@@ -84,17 +84,7 @@ The system:
 | **Role 17** | Data Visualizer | TBD | — |
 | **Role 18** | Audit Log Developer | TBD | — |
 | **Role 19** | Video Demo Director | TBD | — |
-| **Role 20** | AI-Resistance & Compliance Checker | TBD | — |
-
-### Unassigned Members
-
-The following members have not yet selected a role. Please pick a role (or a bonus role) and notify the Team Lead:
-
-| Student ID | Full Name |
-|-----------|-----------|
-| 22017084 | Prince Boateng |
-| 22390334 | Tawiah, Prince Tettey |
-| 22298847 | Dadzie, Samuel Amanful |
+| **Role 20** | AI-Resistance & Compliance Checker | Samuel Amanful Dadzie | 22298847 |
 
 ---
 
@@ -149,20 +139,20 @@ Ghana-Smart-Service-Optimizer/
 
 | Student ID | Full Name | Role(s) |
 |-----------|-----------|---------|
-| 22032451 | **Kwakye Ishmael Affum** (Team Lead) | Roles 5, 6, 7, 9, 15 |
+| 22032451 | **Kwakye Ishmael Affum** (Team Lead) | Roles 6, 7, 9, 15 |
 | 22186668 | Ablorh-Adjei Caleb | Role 4 |
-| 22244884 | Prosper Sokari | Role 3 |
+| 22244884 | Prosper Sokari | Roles 3 |
 | 22064116 | Kennedy Sarfo | Role 10 |
-| 22017217 | Samuel Kofi Ntem Amankwah | Roles 4, 5, 12 |
-| 22017084 | Prince Boateng | Unassigned |
+| 22017217 | Samuel Kofi Ntem Amankwah | Roles 3, 4, 5 |
+| 22017084 | Prince Boateng | Role 5 |
 | 22304259 | Mensah, Renny Abbey | Role 8 |
 | 22040317 | Amenyo Hator | Role 11 |
 | 22305966 | Quarshie, Emelia Akua | Role 13 |
 | 22370828 | Kporha, Elijah Mawuli | Role 16 |
 | 22303106 | Opoku, David Owusu-Bonsu | Role 14 |
-| 22390334 | Tawiah, Prince Tettey | Unassigned |
+| 22390334 | Tawiah, Prince Tettey | Role 12 |
 | 22405188 | Ganyoh, Robert Goodness | Role 2 |
-| 22298847 | Dadzie, Samuel Amanful | Unassigned |
+| 22298847 | Dadzie, Samuel Amanful | Role 20 |
 | 22398905 | Mohammed, Hamidu Abilla | Role 8 |
 | 22372116 | Seity, Matin | Role 1 |
 
